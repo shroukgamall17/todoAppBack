@@ -23,7 +23,7 @@ app.use((err,req, res, next)=>{
     res.status(500).json({message: err.message})
 })
 
-mongoose.connect('mongodb+srv://admin:admin123@cluster0.clxrt.mongodb.net/').then(()=>
+mongoose.connect('mongodb+srv://finallproject17:PBPrKJNBpm9XKRVE@finalproject.8il93f2.mongodb.net/').then(()=>
 {
     console.log("Connected to database successfully");
     
